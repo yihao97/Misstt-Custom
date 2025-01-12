@@ -295,7 +295,7 @@
         "guarantee-1": {
           "type": "guarantee",
           "settings": {
-            "icon": "globe",
+            "icon": "shield",
             "icon_size": "medium",
             "custom_icon": "",
             "title": "Processed securely by Shopify payments",
@@ -317,7 +317,7 @@
         "guarantee-3": {
           "type": "guarantee",
           "settings": {
-            "icon": "shield",
+            "icon": "dolly",
             "icon_size": "medium",
             "custom_icon": "",
             "title": "All products here are officially sourced.",
