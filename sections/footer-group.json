@@ -24,8 +24,8 @@
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Explore",
-            "menu": "footer"
+            "heading": "HELP & SERVICES",
+            "menu": "help-services"
           }
         },
         "footer-2": {
