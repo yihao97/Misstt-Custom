@@ -298,9 +298,9 @@
             "icon": "globe",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Processed securely by Shopify payments",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": ""
           }
         },
         "guarantee-2": {
