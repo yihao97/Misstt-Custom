@@ -65,6 +65,7 @@
     "cart_recommendations_show_vendor": true,
     "predictive_search_show_vendor": true,
     "gift_card_logo_height": 70,
+    "disable_collection_portion": true,
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
