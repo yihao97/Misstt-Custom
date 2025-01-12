@@ -341,7 +341,7 @@
           "label": "文本"
         },
         "empty_cart_collections": {
-          "label": "收藏清单"
+          "label": "系列清单"
         },
         "empty_cart_button_secondary": {
           "label": "使用大纲按钮样式"
@@ -461,10 +461,10 @@
       }
     },
     "favicon": {
-      "name": "收藏夹图标",
+      "name": "系列夹图标",
       "settings": {
         "favicon": {
-          "label": "收藏夹图标图片",
+          "label": "系列夹图标图片",
           "info": "将缩小到 32 x 32px"
         }
       }
@@ -1298,10 +1298,10 @@
           }
         },
         "collection": {
-          "name": "收藏",
+          "name": "系列",
           "settings": {
             "collection": {
-              "label": "收藏"
+              "label": "系列"
             }
           }
         },
@@ -1373,7 +1373,7 @@
       }
     },
     "collection-list": {
-      "name": "收藏清单",
+      "name": "系列清单",
       "settings": {
         "apply_overlay": {
           "label": "在图片上应用叠加层",
@@ -1385,10 +1385,10 @@
       },
       "blocks": {
         "featured_collection": {
-          "name": "收藏",
+          "name": "系列",
           "settings": {
             "collection": {
-              "label": "收藏"
+              "label": "系列"
             },
             "image": {
               "label": "图片"
@@ -1397,7 +1397,7 @@
         }
       },
       "presets": {
-        "name": "收藏清单"
+        "name": "系列清单"
       }
     },
     "contact-form": {
@@ -1774,10 +1774,10 @@
       }
     },
     "featured-collection": {
-      "name": "特色收藏",
+      "name": "特色系列",
       "settings": {
         "collection": {
-          "label": "收藏"
+          "label": "系列"
         },
         "products_to_show": {
           "label": "要显示的最大产品数"
@@ -1787,7 +1787,7 @@
         }
       },
       "presets": {
-        "name": "特色收藏"
+        "name": "特色系列"
       }
     },
     "featured-product": {
@@ -2315,7 +2315,7 @@
           "label": "在主页启用"
         },
         "enable_transparent_header_collection": {
-          "label": "在收藏页面上启用"
+          "label": "在系列页面上启用"
         },
         "enable_transparent_header_custom": {
           "label": "自定义页面",
@@ -2975,13 +2975,13 @@
           "options__3": {
             "label": "大"
           },
-          "label": "收藏题目尺寸"
+          "label": "系列题目尺寸"
         },
         "show_description": {
-          "label": "显示收藏描述"
+          "label": "显示系列描述"
         },
         "show_image": {
-          "label": "显示收藏图片"
+          "label": "显示系列图片"
         },
         "apply_overlay": {
           "label": "在图片应用叠加层",
@@ -3130,7 +3130,7 @@
       }
     },
     "main-list-collections": {
-      "name": "收藏列表页面",
+      "name": "系列列表页面",
       "settings": {
         "sort": {
           "options__1": {
@@ -3151,7 +3151,7 @@
           "options__6": {
             "label": "产品数量，从低到高"
           },
-          "label": "对收藏进行排序"
+          "label": "对系列进行排序"
         },
         "grid_image": {
           "label": "图片",
@@ -3163,7 +3163,7 @@
           }
         },
         "image_ratio": {
-          "info": "要添加图片， [编辑您的收藏](https://help.shopify.com/manual/products/collections)"
+          "info": "要添加图片， [编辑您的系列](https://help.shopify.com/manual/products/collections)"
         },
         "apply_overlay": {
           "label": "在图片应用叠加层",
@@ -4799,10 +4799,10 @@
           }
         },
         "collection": {
-          "name": "收藏",
+          "name": "系列",
           "settings": {
             "collection": {
-              "label": "收藏"
+              "label": "系列"
             }
           }
         },
