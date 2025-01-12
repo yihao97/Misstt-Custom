@@ -12,5 +12,12 @@
   "context": {
     "market": "国际市场"
   },
-  "sections": {}
+  "sections": {
+    "product-grid": {
+      "settings": {
+        "show_vendor": false
+      },
+      "blocks": {}
+    }
+  }
 }
