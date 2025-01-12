@@ -127,6 +127,8 @@
 
               if section.settings.columns_mobile == '1'
                 assign grid_class = grid_class | append: ' grid--1-col-mobile'
+              elsif section.settings.columns_mobile == '3'
+                assign grid_class = grid_class | append: ' grid--3-col-mobile'
               endif
 
               if products_per_row == 3
@@ -207,9 +209,13 @@
         {
           "value": "2",
           "label": "t:sections.all.mobile_layout.columns_mobile.options__2.label"
-        }
+        },
+        {
+      "value": "3",
+      "label": "t:sections.all.mobile_layout.columns_mobile.options__3.label"
+    }
       ],
-      "default": "2",
+      "default": "3",
       "label": "t:sections.all.mobile_layout.columns_mobile.label"
     },
     {
