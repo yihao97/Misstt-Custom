@@ -37,14 +37,24 @@
 
 {%- if settings.quick_view_enabled and section.settings.enable_quick_view -%}
   <link rel="stylesheet" href="{{ 'section-main-product.css' | asset_url }}" media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="print" onload="this.media='all'">
+  <link
+    rel="stylesheet"
+    href="{{ 'component-deferred-media.css' | asset_url }}"
+    media="print"
+    onload="this.media='all'"
+  >
   <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 {%- if enable_sticky_facet -%}
   <link rel="stylesheet" href="{{ 'component-facet-sticky.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 {%- if section.settings.pagination == 'infinite' or section.settings.pagination == 'click' -%}
-  <link rel="stylesheet" href="{{ 'component-infinite-scroll.css' | asset_url }}" media="print" onload="this.media='all'">
+  <link
+    rel="stylesheet"
+    href="{{ 'component-infinite-scroll.css' | asset_url }}"
+    media="print"
+    onload="this.media='all'"
+  >
   <script src="{{ 'infinite-scroll.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
@@ -90,74 +100,74 @@
     -%}
 
     {%- paginate collection.products by products_per_page -%}
-    <div id="ProductGridContainer">
-      {%- if collection.products.size == 0 -%}
-        <div class="collection collection--empty" id="product-grid" data-id="{{ section.id }}">
-          <div class="loading-overlay"></div>
+      <div id="ProductGridContainer">
+        {%- if collection.products.size == 0 -%}
+          <div class="collection collection--empty" id="product-grid" data-id="{{ section.id }}">
+            <div class="loading-overlay"></div>
 
-          <div class="title-wrapper center">
-            <p class="title title--primary h2">
-              {%- liquid
-                if collection.filters.size > 0
-                  echo 'sections.collection_template.empty' | t
-                  echo '<br/>'
-                  echo 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: "link link--underline"
-                else
-                  echo 'sections.collection_template.no_products' | t
-                endif
-              -%}
-            </p>
+            <div class="title-wrapper center">
+              <p class="title title--primary h2">
+                {%- liquid
+                  if collection.filters.size > 0
+                    echo 'sections.collection_template.empty' | t
+                    echo '<br/>'
+                    echo 'sections.collection_template.use_fewer_filters_html' | t: link: collection.url, class: 'link link--underline'
+                  else
+                    echo 'sections.collection_template.no_products' | t
+                  endif
+                -%}
+              </p>
+            </div>
           </div>
-        </div>
-      {%- else -%}
-        <div class="collection">
-          <div class="loading-overlay"></div>
-          {%- liquid
-            assign grid_class = 'grid grid--2-col'
+        {%- else -%}
+          <div class="collection">
+            <div class="loading-overlay"></div>
+            {%- liquid
+              assign grid_class = 'grid grid--2-col'
 
-            if section.settings.columns_mobile == '1'
-              assign grid_class = grid_class | append: ' grid--1-col-mobile'
-            endif
-          
-            if products_per_row == 3
-              assign grid_class = grid_class | append: ' grid--3-col-tablet grid--3-col-desktop'
-            elsif products_per_row == 4
-              assign grid_class = grid_class | append: ' grid--3-col-tablet grid--4-col-desktop'
-            endif
-          -%}
-          <ul id="product-grid" data-id="{{ section.id }}" class="product-grid {{ grid_class }}" role="list">
-            {%- for product in collection.products -%}
-              {%- liquid
-                assign lazy_load = true
-                if forloop.first
-                  assign lazy_load = false
-                endif
-              -%}
-              <li class="grid__item">
-                {% render 'card-product',
-                  card_product: product,
-                  card_collection: collection,
-                  media_size: section.settings.image_ratio,
-                  show_secondary_image: section.settings.show_secondary_image,
-                  show_quick_buy: section.settings.show_quick_buy,
-                  show_vendor: section.settings.show_vendor,
-                  show_rating: section.settings.show_rating,
-                  enable_quick_view: section.settings.enable_quick_view,
-                  enable_color_swatches: section.settings.enable_color_swatches,
-                  enable_countdown: section.settings.enable_countdown,
-                  enable_image_fill: section.settings.enable_image_fill,
-                  lazy_load: lazy_load
-                %}
-              </li>
-            {%- endfor -%}
-          </ul>
+              if section.settings.columns_mobile == '1'
+                assign grid_class = grid_class | append: ' grid--1-col-mobile'
+              endif
 
-          {%- if paginate.pages > 1 -%}
-            {% render 'pagination', paginate: paginate, pagination: section.settings.pagination %}
-          {%- endif -%}
-        </div>
-      {%- endif -%}
-    </div>
+              if products_per_row == 3
+                assign grid_class = grid_class | append: ' grid--3-col-tablet grid--3-col-desktop'
+              elsif products_per_row == 4
+                assign grid_class = grid_class | append: ' grid--3-col-tablet grid--4-col-desktop'
+              endif
+            -%}
+            <ul id="product-grid" data-id="{{ section.id }}" class="product-grid {{ grid_class }}" role="list">
+              {%- for product in collection.products -%}
+                {%- liquid
+                  assign lazy_load = true
+                  if forloop.first
+                    assign lazy_load = false
+                  endif
+                -%}
+                <li class="grid__item">
+                  {% render 'card-product',
+                    card_product: product,
+                    card_collection: collection,
+                    media_size: section.settings.image_ratio,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    show_quick_buy: section.settings.show_quick_buy,
+                    show_vendor: section.settings.show_vendor,
+                    show_rating: section.settings.show_rating,
+                    enable_quick_view: section.settings.enable_quick_view,
+                    enable_color_swatches: section.settings.enable_color_swatches,
+                    enable_countdown: section.settings.enable_countdown,
+                    enable_image_fill: section.settings.enable_image_fill,
+                    lazy_load: lazy_load
+                  %}
+                </li>
+              {%- endfor -%}
+            </ul>
+
+            {%- if paginate.pages > 1 -%}
+              {% render 'pagination', paginate: paginate, pagination: section.settings.pagination %}
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+      </div>
     {%- endpaginate -%}
   </div>
 </div>
@@ -197,13 +207,9 @@
         {
           "value": "2",
           "label": "t:sections.all.mobile_layout.columns_mobile.options__2.label"
-        },
-        {
-          "value": "3",
-          "label": "t:sections.all.mobile_layout.columns_mobile.options__3.label"
-        },
+        }
       ],
-      "default": "3",
+      "default": "2",
       "label": "t:sections.all.mobile_layout.columns_mobile.label"
     },
     {
