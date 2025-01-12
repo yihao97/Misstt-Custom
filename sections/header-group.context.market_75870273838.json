@@ -23,6 +23,16 @@
           }
         }
       }
+    },
+    "header": {
+      "settings": {},
+      "blocks": {
+        "mega_menu_ak7d6P": {
+          "settings": {
+            "promo_image_1": "shopify://shop_images/Achihara-German-Velvet-Bottom-Pants-Autumn-And-Winter-2024-New-Short-Pants--Rest-Anti-Exposure-Pants.jpg"
+          }
+        }
+      }
     }
   }
 }
