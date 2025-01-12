@@ -8,21 +8,9 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "list-collections.json",
+  "parent": "index.json",
   "context": {
     "market": "国际市场"
   },
-  "sections": {
-    "main": {
-      "settings": {
-        "sort": "date",
-        "image_ratio": "adapt",
-        "heading": "",
-        "heading_size": "h1",
-        "apply_overlay": true,
-        "columns_mobile": "1"
-      },
-      "blocks": {}
-    }
-  }
+  "sections": {}
 }
