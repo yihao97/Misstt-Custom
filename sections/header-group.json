@@ -111,7 +111,7 @@
         "enable_transparent_header_custom": "",
         "show_transparent_header_border": false,
         "transparent_text_color": "#ffffff",
-        "enable_highlight": false,
+        "enable_highlight": true,
         "highlight_labels": "",
         "highlight_style": "marker",
         "mobile_logo_position": "center",
