@@ -34,11 +34,12 @@
         "slide-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/achihara-winter-fall-banner.jpg",
             "image_position": "center center",
             "text_box_position": "bottom-center",
-            "subheading": "Add a tagline",
+            "subheading": "2025 new collection",
             "subheading_size": "h5",
-            "heading": "Image slide",
+            "heading": "Achihara",
             "heading_size": "h0",
             "heading_tag": "h2",
             "text": "",
