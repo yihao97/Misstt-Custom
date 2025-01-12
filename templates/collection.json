@@ -47,7 +47,7 @@
       "settings": {
         "products_per_row": 4,
         "rows_per_page": 20,
-        "columns_mobile": "2",
+        "columns_mobile": "3",
         "pagination": "paginated",
         "enable_sticky_facet": true,
         "enable_sorting": true,
