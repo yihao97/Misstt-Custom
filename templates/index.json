@@ -284,10 +284,10 @@
         "guarantee-0": {
           "type": "guarantee",
           "settings": {
-            "icon": "leaf",
+            "icon": "plane",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Free shipping over $100.",
+            "title": "Free air shipping over $100.",
             "title_size": "h4",
             "text": ""
           }
