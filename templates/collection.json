@@ -63,7 +63,7 @@
         "show_secondary_image": true,
         "show_vendor": true,
         "show_rating": true,
-        "show_quick_buy": true,
+        "show_quick_buy": false,
         "enable_quick_view": true,
         "enable_color_swatches": true,
         "enable_countdown": true,
