@@ -23,11 +23,11 @@
     "colors_overlay": "#212326",
     "colors_keyboard_focus": "#87adf5",
     "colors_shadow": "#a8e8e2",
-    "type_header_font": "gill_sans_nova_n4",
+    "type_header_font": "archivo_n4",
     "heading_scale": 100,
     "heading_capitalize": false,
     "heading_center": false,
-    "type_body_font": "twentieth_century_n4",
+    "type_body_font": "archivo_n4",
     "body_scale": 100,
     "type_navigation_font": "heading",
     "type_navigation_size": 12,
@@ -79,7 +79,8 @@
           "show_line_separator": false
         }
       }
-    }
+    },
+    "content_for_index": []
   },
   "presets": {
     "Beauty": {
