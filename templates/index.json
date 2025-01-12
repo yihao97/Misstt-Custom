@@ -15,18 +15,19 @@
         "slide-0": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/outtheblue-winter-fall-banner.jpg",
             "image_position": "center center",
             "text_box_position": "bottom-left",
-            "subheading": "Add a tagline",
-            "subheading_size": "h5",
-            "heading": "Image slide",
+            "subheading": "2025 new collection",
+            "subheading_size": "h3",
+            "heading": "Outthe Blue",
             "heading_size": "h0",
             "heading_tag": "h2",
             "text": "",
             "text_size": "typeset2",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
+            "button_label": "More",
+            "button_link": "shopify://collections/outtheblue",
+            "button_size": "large",
             "button_style_secondary": false
           }
         },
