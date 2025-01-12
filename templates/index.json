@@ -306,12 +306,12 @@
         "guarantee-2": {
           "type": "guarantee",
           "settings": {
-            "icon": "recycle",
+            "icon": "return",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "Acccept 30 days return or exchange",
             "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
+            "text": ""
           }
         },
         "guarantee-3": {
