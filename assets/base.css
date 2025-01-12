@@ -1068,7 +1068,7 @@ summary::-webkit-details-marker {
 }
 
 .grid--2-col .grid__item {
-  width: calc(50% - var(--grid-horizontal-spacing) * 2 / 3);
+  width: calc(50% - var(--grid-horizontal-spacing) / 2);
   max-width: 100%;
 }
 
