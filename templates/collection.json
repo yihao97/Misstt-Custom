@@ -34,7 +34,7 @@
         "per_row": 5,
         "columns_mobile": "1",
         "horizontal_on_mobile": true,
-        "grid_image": "collection",
+        "grid_image": "product",
         "image_ratio": "adapt",
         "image_position": "center center",
         "apply_overlay": true,
