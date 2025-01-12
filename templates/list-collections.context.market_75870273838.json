@@ -12,5 +12,13 @@
   "context": {
     "market": "国际市场"
   },
-  "sections": {}
+  "sections": {
+    "main": {
+      "settings": {
+        "image_ratio": "adapt",
+        "sort": "date"
+      },
+      "blocks": {}
+    }
+  }
 }
