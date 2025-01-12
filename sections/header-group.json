@@ -136,7 +136,7 @@
       "settings": {
         "logo_height": 30,
         "mobile_logo_height": 30,
-        "logo_position": "top-center",
+        "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_mobile": "main-menu",
         "enable_dropdown_menu": true,
