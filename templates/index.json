@@ -32,26 +32,6 @@
             "button_style_secondary": false
           }
         },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/achihara-winter-fall-banner.jpg",
-            "image_mobile": "shopify://shop_images/achihara-banner-phone.jpg",
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "2025 new collection",
-            "subheading_size": "h5",
-            "heading": "Achihara",
-            "heading_size": "h0",
-            "heading_tag": "h1",
-            "text": "",
-            "text_size": "typeset2",
-            "button_label": "MORE",
-            "button_link": "shopify://collections/achihara",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
         "image_fyTbDt": {
           "type": "image",
           "settings": {
@@ -72,31 +52,11 @@
             "button_style_secondary": false
           }
         },
-        "image_WjDCbp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/YOSHUYUKI-banner.jpg",
-            "image_mobile": "shopify://shop_images/yoshuyuki-banner-phobe.jpg",
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "2025 NEW COLLECTION",
-            "subheading_size": "h5",
-            "heading": "YOSHUYUKI",
-            "heading_size": "h1",
-            "heading_tag": "h1",
-            "text": "",
-            "text_size": "typeset",
-            "button_label": "MORE",
-            "button_link": "shopify://collections/yoshuyuki",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
         "image_UbyTD8": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/kvkvbanner.jpg",
-            "image_mobile": "shopify://shop_images/Kvkv-Genuine-Fur-Collar-Retro-Detachable-Blend-Hooded-Sweater-With-Relaxed-Zipper-And-Lazy-Batfly-Sleeve-Cardigan-Jacket-4.jpg",
+            "image_mobile": "shopify://shop_images/kvkv-banner-phone.jpg",
             "image_position": "center center",
             "text_box_position": "middle-center",
             "subheading": "2025 new collection",
@@ -111,14 +71,54 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
+        },
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/achihara-winter-fall-banner.jpg",
+            "image_mobile": "shopify://shop_images/achihara-banner-phone.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "2025 new collection",
+            "subheading_size": "h5",
+            "heading": "Achihara",
+            "heading_size": "h0",
+            "heading_tag": "h1",
+            "text": "",
+            "text_size": "typeset2",
+            "button_label": "MORE",
+            "button_link": "shopify://collections/achihara",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_WjDCbp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/YOSHUYUKI-banner.jpg",
+            "image_mobile": "shopify://shop_images/yoshuyuki-banner-phobe4.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "2025 NEW COLLECTION",
+            "subheading_size": "h5",
+            "heading": "YOSHUYUKI",
+            "heading_size": "h1",
+            "heading_tag": "h1",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "MORE",
+            "button_link": "shopify://collections/yoshuyuki",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "slide-0",
-        "slide-1",
         "image_fyTbDt",
-        "image_WjDCbp",
-        "image_UbyTD8"
+        "image_UbyTD8",
+        "slide-1",
+        "image_WjDCbp"
       ],
       "settings": {
         "slideshow_type": "legacy",
