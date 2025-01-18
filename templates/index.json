@@ -73,13 +73,15 @@
         "image_WjDCbp": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/YOSHUYUKI-banner.jpg",
+            "image_mobile": "shopify://shop_images/yoshuyuki-banner-phobe.jpg",
             "image_position": "center center",
             "text_box_position": "middle-center",
-            "subheading": "",
+            "subheading": "2025 NEW COLLECTION",
             "subheading_size": "h5",
-            "heading": "Image slide",
+            "heading": "YOSHUYUKI",
             "heading_size": "h1",
-            "heading_tag": "h2",
+            "heading_tag": "h1",
             "text": "Give customers details about the slide image or content on the template.",
             "text_size": "typeset",
             "button_label": "Button label",
