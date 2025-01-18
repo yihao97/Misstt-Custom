@@ -45,7 +45,7 @@
             "text": "",
             "text_size": "typeset2",
             "button_label": "MORE",
-            "button_link": "",
+            "button_link": "shopify://collections/achihara",
             "button_size": "medium",
             "button_style_secondary": false
           }
@@ -65,7 +65,7 @@
             "text": "",
             "text_size": "typeset",
             "button_label": "MORE",
-            "button_link": "",
+            "button_link": "shopify://collections/commonce",
             "button_size": "medium",
             "button_style_secondary": false
           }
@@ -85,7 +85,7 @@
             "text": "",
             "text_size": "typeset",
             "button_label": "MORE",
-            "button_link": "",
+            "button_link": "shopify://collections/yoshuyuki",
             "button_size": "medium",
             "button_style_secondary": false
           }
