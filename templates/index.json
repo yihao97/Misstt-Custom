@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/outtheblue-winter-fall-banner.jpg",
             "image_position": "center center",
-            "text_box_position": "bottom-left",
+            "text_box_position": "middle-center",
             "subheading": "2025 new collection",
             "subheading_size": "h3",
             "heading": "Outthe Blue",
