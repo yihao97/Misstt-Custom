@@ -120,6 +120,7 @@
         "mega_menu_WadBPU"
       ],
       "settings": {
+        "logo": "shopify://shop_images/misstt_logo_black_800-100.png",
         "logo_height": 30,
         "mobile_logo_height": 30,
         "logo_position": "middle-left",
@@ -129,7 +130,7 @@
         "show_line_separator": true,
         "uppercase_menu_items": true,
         "cart_icon": "cart",
-        "icon_weight": "1.1",
+        "icon_weight": "1.7",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "enable_sticky_header": true,
@@ -138,7 +139,7 @@
         "enable_transparent_header_collection": false,
         "enable_transparent_header_custom": "",
         "show_transparent_header_border": true,
-        "transparent_text_color": "#ffffff",
+        "transparent_text_color": "#212326",
         "enable_highlight": true,
         "highlight_labels": "Brand",
         "highlight_style": "circle",

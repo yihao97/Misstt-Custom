@@ -64,6 +64,12 @@
     "cart_recommendations_heading": "You may also like",
     "cart_recommendations_show_vendor": true,
     "predictive_search_show_vendor": true,
+    "social_facebook_link": "https://www.facebook.com/missttstore",
+    "social_twitter_link": "https://x.com/misstt_official",
+    "social_pinterest_link": "https://pinterest.com/misstt_official",
+    "social_instagram_link": "https://www.instagram.com/misstt_official/",
+    "social_tiktok_link": "https://www.tiktok.com/@misstt_official",
+    "social_youtube_link": "https://www.youtube.com/@misstt_official",
     "gift_card_logo_height": 70,
     "disable_collection_portion": true,
     "sections": {
