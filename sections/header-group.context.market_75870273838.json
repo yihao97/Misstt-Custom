@@ -15,14 +15,7 @@
   "sections": {
     "announcement-bar": {
       "settings": {},
-      "blocks": {
-        "announcement-bar-0": {
-          "settings": {
-            "text": "Free Air Shipping Over $100！",
-            "text_on_mobile": "Free Air Shipping Over $100！"
-          }
-        }
-      }
+      "blocks": {}
     },
     "header": {
       "settings": {},
