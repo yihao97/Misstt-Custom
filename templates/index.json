@@ -36,7 +36,7 @@
           "settings": {
             "image": "shopify://shop_images/achihara-winter-fall-banner.jpg",
             "image_position": "center center",
-            "text_box_position": "bottom-center",
+            "text_box_position": "middle-center",
             "subheading": "2025 new collection",
             "subheading_size": "h5",
             "heading": "Achihara",
@@ -44,7 +44,7 @@
             "heading_tag": "h2",
             "text": "",
             "text_size": "typeset2",
-            "button_label": "Button label",
+            "button_label": "MORE",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
@@ -62,9 +62,9 @@
             "heading": "COMMONCE.NET",
             "heading_size": "h1",
             "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
+            "text": "",
             "text_size": "typeset",
-            "button_label": "Button label",
+            "button_label": "MORE",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
@@ -82,27 +82,9 @@
             "heading": "YOSHUYUKI",
             "heading_size": "h1",
             "heading_tag": "h1",
-            "text": "Give customers details about the slide image or content on the template.",
+            "text": "",
             "text_size": "typeset",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
-        "image_nJn8qf": {
-          "type": "image",
-          "settings": {
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "",
-            "subheading_size": "h5",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "heading_tag": "h2",
-            "text": "Give customers details about the slide image or content on the template.",
-            "text_size": "typeset",
-            "button_label": "Button label",
+            "button_label": "MORE",
             "button_link": "",
             "button_size": "medium",
             "button_style_secondary": false
@@ -113,8 +95,7 @@
         "slide-0",
         "slide-1",
         "image_fyTbDt",
-        "image_WjDCbp",
-        "image_nJn8qf"
+        "image_WjDCbp"
       ],
       "settings": {
         "slideshow_type": "legacy",
