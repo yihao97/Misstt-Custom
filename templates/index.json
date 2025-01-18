@@ -89,13 +89,34 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
+        },
+        "image_UbyTD8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/kvkvbanner.jpg",
+            "image_mobile": "shopify://shop_images/Kvkv-Genuine-Fur-Collar-Retro-Detachable-Blend-Hooded-Sweater-With-Relaxed-Zipper-And-Lazy-Batfly-Sleeve-Cardigan-Jacket-4.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "slide-0",
         "slide-1",
         "image_fyTbDt",
-        "image_WjDCbp"
+        "image_WjDCbp",
+        "image_UbyTD8"
       ],
       "settings": {
         "slideshow_type": "legacy",
