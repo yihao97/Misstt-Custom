@@ -49,11 +49,70 @@
             "button_size": "medium",
             "button_style_secondary": false
           }
+        },
+        "image_fyTbDt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/commonce-banner-2.jpg",
+            "image_mobile": "shopify://shop_images/Commonce.Net-Mesh-Hollow-Splicing-Jumpsuit-3_e6107e1f-2f8d-45e6-9a54-f410632f1358.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "2025 NEW COLLECTION",
+            "subheading_size": "h5",
+            "heading": "COMMONCE.NET",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_WjDCbp": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_nJn8qf": {
+          "type": "image",
+          "settings": {
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "Give customers details about the slide image or content on the template.",
+            "text_size": "typeset",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
         "slide-0",
-        "slide-1"
+        "slide-1",
+        "image_fyTbDt",
+        "image_WjDCbp",
+        "image_nJn8qf"
       ],
       "settings": {
         "slideshow_type": "legacy",
