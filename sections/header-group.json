@@ -135,10 +135,10 @@
         "enable_sticky_header": true,
         "show_sticky_header_scroll_up": true,
         "enable_transparent_header": true,
-        "enable_transparent_header_collection": false,
+        "enable_transparent_header_collection": true,
         "enable_transparent_header_custom": "",
         "show_transparent_header_border": true,
-        "transparent_text_color": "#212326",
+        "transparent_text_color": "#ffffff",
         "enable_highlight": true,
         "highlight_labels": "Brand",
         "highlight_style": "circle",
@@ -147,7 +147,7 @@
         "colors_border": "#d2d5d9",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "colors_highlight": "#bbff00",
+        "colors_highlight": "#d72c0d",
         "padding_top": 12,
         "padding_bottom": 12
       }
