@@ -63,6 +63,7 @@
         "popup-3",
         "popup-4"
       ],
+      "disabled": true,
       "settings": {
         "mode": "enabled",
         "only_homepage": true,
