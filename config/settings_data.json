@@ -98,11 +98,6 @@
         "type": "shopify://apps/gp-json-ld-schema/blocks/gropulse-rich-snippets/067179e8-363f-48e1-8ee4-5891cda502fa",
         "disabled": false,
         "settings": {}
-      },
-      "6174324309569838175": {
-        "type": "shopify://apps/smile-io/blocks/smile-shopify-app/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
-        "disabled": true,
-        "settings": {}
       }
     }
   },
