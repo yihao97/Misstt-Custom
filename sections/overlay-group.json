@@ -217,6 +217,7 @@
         },
         "mobile-dock-5": {
           "type": "account",
+          "disabled": true,
           "settings": {
             "custom_icon": "",
             "title": "Account"
