@@ -12,6 +12,26 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/achihara-winter-fall-banner.jpg",
+            "image_mobile": "shopify://shop_images/achihara-banner-phone.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "2025 new collection",
+            "subheading_size": "h5",
+            "heading": "Achihara",
+            "heading_size": "h0",
+            "heading_tag": "h1",
+            "text": "",
+            "text_size": "typeset2",
+            "button_label": "MORE",
+            "button_link": "shopify://collections/achihara",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
         "slide-0": {
           "type": "image",
           "settings": {
@@ -72,26 +92,6 @@
             "button_style_secondary": false
           }
         },
-        "slide-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/achihara-winter-fall-banner.jpg",
-            "image_mobile": "shopify://shop_images/achihara-banner-phone.jpg",
-            "image_position": "center center",
-            "text_box_position": "middle-center",
-            "subheading": "2025 new collection",
-            "subheading_size": "h5",
-            "heading": "Achihara",
-            "heading_size": "h0",
-            "heading_tag": "h1",
-            "text": "",
-            "text_size": "typeset2",
-            "button_label": "MORE",
-            "button_link": "shopify://collections/achihara",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        },
         "image_WjDCbp": {
           "type": "image",
           "settings": {
@@ -114,10 +114,10 @@
         }
       },
       "block_order": [
+        "slide-1",
         "slide-0",
         "image_fyTbDt",
         "image_UbyTD8",
-        "slide-1",
         "image_WjDCbp"
       ],
       "settings": {
@@ -330,68 +330,6 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_BFjW8t": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_fYkKad": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "yoshuyuki",
-            "image_position": "top center"
-          }
-        },
-        "featured_collection_4Yjc9V": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "outtheblue",
-            "image_position": "top center"
-          }
-        },
-        "featured_collection_aDBrEW": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "commonce",
-            "image_position": "top center"
-          }
-        },
-        "featured_collection_M9gxem": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kvkv",
-            "image_position": "top center"
-          }
-        },
-        "featured_collection_dqn3tq": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "achihara",
-            "image_position": "top center"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_fYkKad",
-        "featured_collection_4Yjc9V",
-        "featured_collection_aDBrEW",
-        "featured_collection_M9gxem",
-        "featured_collection_dqn3tq"
-      ],
-      "settings": {
-        "show_view_all": false,
-        "show_divider": false,
-        "columns_desktop": 3,
-        "heading": "Collections",
-        "heading_size": "h1",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "apply_overlay": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "guarantees": {
       "type": "guarantees",
       "blocks": {
@@ -463,6 +401,68 @@
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_BFjW8t": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_fYkKad": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "yoshuyuki",
+            "image_position": "top center"
+          }
+        },
+        "featured_collection_4Yjc9V": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "outtheblue",
+            "image_position": "top center"
+          }
+        },
+        "featured_collection_aDBrEW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "commonce",
+            "image_position": "top center"
+          }
+        },
+        "featured_collection_M9gxem": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kvkv",
+            "image_position": "top center"
+          }
+        },
+        "featured_collection_dqn3tq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "achihara",
+            "image_position": "top center"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_fYkKad",
+        "featured_collection_4Yjc9V",
+        "featured_collection_aDBrEW",
+        "featured_collection_M9gxem",
+        "featured_collection_dqn3tq"
+      ],
+      "settings": {
+        "show_view_all": false,
+        "show_divider": false,
+        "columns_desktop": 3,
+        "heading": "Collections",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "apply_overlay": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
