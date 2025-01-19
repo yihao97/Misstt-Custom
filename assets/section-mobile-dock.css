@@ -9,18 +9,19 @@
   position: fixed;
   left: 0;
   bottom: 0;
-  overflow: hidden;
-  transform: translateY(100%);
+  overflow: visible; /* 修改点 1: 确保内容始终可见 */
+  /* 修改点 2: 移除 transform: translateY(100%) */
   transition: transform var(--duration-default) ease;
   background: var(--gradient-background);
   background-color: rgb(var(--color-background));
   box-shadow: 0 0.1rem 0.8rem rgba(var(--color-foreground), 0.15), 0 2rem 4rem rgba(var(--color-foreground), 0.08);
 }
 
-.mobile-dock.is-active {
+/* 修改点 3: 移除 .mobile-dock.is-active 的样式 */
+/* .mobile-dock.is-active {
   overflow: visible;
   transform: translateY(0);
-}
+} */
 
 .dock__item {
   flex-grow: 1;
@@ -96,7 +97,8 @@
   }
 }
 
+/* 修改点 4: 调整固定头部时的样式 */
 .shopify-body-section-header-sticky:not(.shopify-body-section-header-hidden) .shopify-section-mobile-dock .mobile-dock {
-  overflow: hidden;
-  transform: translateY(100%);
+  overflow: visible; /* 确保内容始终可见 */
+  /* 移除 transform: translateY(100%) */
 }
