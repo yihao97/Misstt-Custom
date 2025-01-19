@@ -313,7 +313,8 @@
       ],
       "disabled": true,
       "settings": {
-        "image_position": "center center",
+        "image": "shopify://shop_images/outtheblue-winter-fall-banner.jpg",
+        "image_position": "top center",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "650px",
@@ -325,6 +326,68 @@
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 20,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_BFjW8t": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_dqn3tq": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "achihara",
+            "image_position": "top center"
+          }
+        },
+        "featured_collection_fYkKad": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "yoshuyuki",
+            "image_position": "top center"
+          }
+        },
+        "featured_collection_4Yjc9V": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "outtheblue",
+            "image_position": "top center"
+          }
+        },
+        "featured_collection_aDBrEW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "commonce",
+            "image_position": "top center"
+          }
+        },
+        "featured_collection_M9gxem": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "",
+            "image_position": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_dqn3tq",
+        "featured_collection_fYkKad",
+        "featured_collection_4Yjc9V",
+        "featured_collection_aDBrEW",
+        "featured_collection_M9gxem"
+      ],
+      "settings": {
+        "show_view_all": false,
+        "show_divider": false,
+        "columns_desktop": 3,
+        "heading": "Collections",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "apply_overlay": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -400,36 +463,6 @@
         "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "collection": "",
-        "products_to_show": 8,
-        "horizontal_scroll": false,
-        "show_view_all": true,
-        "show_divider": false,
-        "heading": "",
-        "heading_size": "h2",
-        "heading_alignment": "left",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "image_ratio": "portrait",
-        "image_position": "center center",
-        "enable_image_fill": true,
-        "show_secondary_image": true,
-        "secondary_image_max": 1,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_quick_buy": true,
-        "enable_quick_view": true,
-        "enable_color_swatches": true,
-        "enable_countdown": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -1543,8 +1576,8 @@
     "rich-text-0",
     "bb3256b3-d2cb-467c-9f00-82cda1259a63",
     "reveal-banner",
+    "collection_list_BFjW8t",
     "guarantees",
-    "featured-collection",
     "video-hero",
     "countdown-timer",
     "shop-the-look",
