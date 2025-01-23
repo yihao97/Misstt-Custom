@@ -19,10 +19,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "judge_me_reviews_preview_badge_UKJLpb": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        },
         "breadcrumb": {
           "type": "breadcrumb",
           "settings": {
@@ -46,8 +42,19 @@
             "price_size": "medium"
           }
         },
+        "judge_me_reviews_preview_badge_UKJLpb": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {}
         },
         "price": {
@@ -58,14 +65,12 @@
             "sale_badge_basis": "auto"
           }
         },
-        "countdown": {
-          "type": "countdown",
+        "inventory_status": {
+          "type": "inventory_status",
           "settings": {
-            "heading": "Hurry up ! Sale end in:",
-            "number_size": "compact",
-            "colors_heading": "#da3f3f",
-            "colors_text": "#da3f3f",
-            "colors_background": "#ffeeee"
+            "inventory_threshold": 20,
+            "show_inventory_transfer": true,
+            "color_scheme": "accent-3"
           }
         },
         "variant_picker": {
@@ -81,6 +86,16 @@
             "size_chart": "尺码表"
           }
         },
+        "countdown": {
+          "type": "countdown",
+          "settings": {
+            "heading": "Hurry up ! Sale end in:",
+            "number_size": "compact",
+            "colors_heading": "#da3f3f",
+            "colors_text": "#da3f3f",
+            "colors_background": "#ffeeee"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -93,12 +108,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "collapsible_tab-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "1. Collapsible tab",
@@ -110,6 +122,7 @@
         },
         "collapsible_tab-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "heading": "2. Collapsible tab",
@@ -119,23 +132,8 @@
             "keep_open": false
           }
         },
-        "inventory_status": {
-          "type": "inventory_status",
-          "settings": {
-            "inventory_threshold": 20,
-            "show_inventory_transfer": true,
-            "color_scheme": "accent-3"
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "related_buttons": {
           "type": "related_buttons",
-          "disabled": true,
           "settings": {
             "show_icons": false
           }
@@ -143,41 +141,45 @@
         "sticky_cart": {
           "type": "sticky_cart",
           "settings": {
-            "show_quantity_selector": false
+            "show_quantity_selector": true
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
         }
       },
       "block_order": [
-        "judge_me_reviews_preview_badge_UKJLpb",
         "breadcrumb",
         "vendor",
         "title",
+        "judge_me_reviews_preview_badge_UKJLpb",
+        "share",
         "rating",
         "price",
-        "countdown",
+        "inventory_status",
         "variant_picker",
+        "countdown",
         "buy_buttons",
         "judge_me_reviews_review_widget_VrdN8Q",
-        "description",
         "collapsible_tab-0",
         "collapsible_tab-1",
-        "inventory_status",
-        "share",
         "related_buttons",
-        "sticky_cart"
+        "sticky_cart",
+        "description"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "media_position": "left",
-        "media_size": "medium",
-        "gallery_layout": "stacked",
+        "media_size": "small",
+        "gallery_layout": "thumbnail_slider",
         "image_ratio": "adapt",
         "show_featured_media": true,
         "show_thumbnails": true,
         "hide_variants": false,
         "enable_image_zoom": false,
         "enable_video_looping": false,
-        "mobile_image_ratio": "adapt_first",
+        "mobile_image_ratio": "adapt",
         "show_mobile_thumbnails": false,
         "padding_top": 0,
         "padding_bottom": 72
