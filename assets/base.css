@@ -8,7 +8,7 @@
 }
 
 /*隐藏loop评价软件的Logo水印*/
-.loox-branding-link {
+.loox-branding {
     display: none !important;
 }
 
