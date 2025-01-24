@@ -104,8 +104,16 @@
             "show_gift_card_recipient": false
           }
         },
+        "judge_me_reviews_ugc_media_grid_A9wBe8": {
+          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "judge_me_reviews_review_widget_VrdN8Q": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "tydal_reviews_reviews_widget_Lw3JDH": {
+          "type": "shopify://apps/tydal-reviews/blocks/reviews-widget/5f785e18-66cc-4519-8181-565d1cce1705",
           "settings": {}
         },
         "collapsible_tab-0": {
@@ -161,7 +169,9 @@
         "variant_picker",
         "countdown",
         "buy_buttons",
+        "judge_me_reviews_ugc_media_grid_A9wBe8",
         "judge_me_reviews_review_widget_VrdN8Q",
+        "tydal_reviews_reviews_widget_Lw3JDH",
         "collapsible_tab-0",
         "collapsible_tab-1",
         "related_buttons",
