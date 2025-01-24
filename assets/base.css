@@ -7,6 +7,12 @@
   --color-border: var(--color-base-border);
 }
 
+/*隐藏loop评价软件的Logo水印*/
+.loox-branding-link {
+    display: none !important;
+}
+
+
 /* Primary button */
 
 :root {
