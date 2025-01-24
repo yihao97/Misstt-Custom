@@ -127,5 +127,15 @@
     {%- if linklists.gift-wrapping.links != blank and linklists.gift-wrapping.links.first.type == 'product_link' -%}
       <script src="{{ 'gift-wrapping.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+          
+          <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const brandingLinks = document.querySelectorAll(".loox-branding-link");
+        brandingLinks.forEach(link => {
+            link.style.display = "none";
+        });
+    });
+</script>
+
   </body>
 </html>
