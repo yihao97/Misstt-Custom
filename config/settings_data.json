@@ -94,6 +94,11 @@
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
+      },
+      "1710008633607995074": {
+        "type": "shopify://apps/tydal-reviews/blocks/app-embed/5f785e18-66cc-4519-8181-565d1cce1705",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
