@@ -104,10 +104,16 @@
             "show_gift_card_recipient": false
           }
         },
-        "judge_me_reviews_ugc_media_grid_A9wBe8": {
-          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "disabled": true,
-          "settings": {}
+        "loox_reviews_loox_dynamic_section_jHeemP": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
         },
         "judge_me_reviews_review_widget_VrdN8Q": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -170,7 +176,7 @@
         "variant_picker",
         "countdown",
         "buy_buttons",
-        "judge_me_reviews_ugc_media_grid_A9wBe8",
+        "loox_reviews_loox_dynamic_section_jHeemP",
         "judge_me_reviews_review_widget_VrdN8Q",
         "tydal_reviews_reviews_widget_Lw3JDH",
         "collapsible_tab-0",
