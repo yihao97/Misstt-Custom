@@ -259,81 +259,6 @@
         "padding_bottom": 28
       }
     },
-    "guarantees": {
-      "type": "guarantees",
-      "blocks": {
-        "guarantee-0": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "leaf",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
-          }
-        },
-        "guarantee-1": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "globe",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
-          }
-        },
-        "guarantee-2": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "recycle",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
-          }
-        },
-        "guarantee-3": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "shield",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h4",
-            "text": "<p>Welcome to our store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "guarantee-0",
-        "guarantee-1",
-        "guarantee-2",
-        "guarantee-3"
-      ],
-      "settings": {
-        "layout": "default",
-        "column_alignment": "center",
-        "horizontal_content": false,
-        "full_width": true,
-        "show_divider": false,
-        "columns_desktop": 4,
-        "heading": "Guarantees",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "use_custom_colors": false,
-        "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 72,
-        "padding_bottom": 36
-      }
-    },
     "collapsible-content": {
       "type": "collapsible-content",
       "blocks": {
@@ -376,6 +301,7 @@
         "question-2",
         "question-3"
       ],
+      "disabled": true,
       "settings": {
         "open_first_collapsible_row": false,
         "narrow": true,
@@ -488,6 +414,7 @@
         "testimonial-3",
         "testimonial-4"
       ],
+      "disabled": true,
       "settings": {
         "autorotate": false,
         "autorotate_speed": 5,
@@ -501,47 +428,79 @@
         "padding_bottom": 36
       }
     },
-    "rich-text": {
-      "type": "rich-text",
+    "guarantees": {
+      "type": "guarantees",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "guarantee-0": {
+          "type": "guarantee",
           "settings": {
-            "heading": "Express yourself with",
-            "heading_size": "h1",
-            "heading_tag": "h2"
+            "icon": "plane",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Processed securely by Shopify payments",
+            "title_size": "h4",
+            "text": ""
           }
         },
-        "text": {
-          "type": "text",
+        "guarantee-1": {
+          "type": "guarantee",
           "settings": {
-            "text": "<p>#instagram</p>",
-            "text_size": "typeset2",
-            "secondary_color": true,
-            "highlight_phrases": "",
-            "highlight_style": "marker"
+            "icon": "shield",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Processed securely by Shopify payments",
+            "title_size": "h4",
+            "text": ""
+          }
+        },
+        "guarantee-2": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "return",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Acccept 30 days return or exchange",
+            "title_size": "h4",
+            "text": ""
+          }
+        },
+        "guarantee-3": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "dolly",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "All products here are officially sourced",
+            "title_size": "h4",
+            "text": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "guarantee-0",
+        "guarantee-1",
+        "guarantee-2",
+        "guarantee-3"
       ],
       "settings": {
-        "text_alignment": "center",
-        "mobile_text_alignment": "center",
+        "layout": "default",
+        "column_alignment": "center",
         "horizontal_content": false,
-        "narrow": false,
+        "full_width": true,
         "show_divider": false,
+        "columns_desktop": 4,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "use_custom_colors": false,
-        "colors_button_label": "#ffffff",
-        "colors_button_background": "#1a1b18",
-        "colors_text": "#212326",
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
         "colors_background": "#ffffff",
-        "colors_highlight": "#bbff00",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 28
+        "padding_top": 72,
+        "padding_bottom": 36
       }
     },
     "gallery": {
@@ -615,6 +574,7 @@
         "image-3",
         "image-4"
       ],
+      "disabled": true,
       "settings": {
         "per_row": 5,
         "spacing_images": 4,
@@ -663,12 +623,11 @@
     "empty-space",
     "main",
     "scrolling-promotion",
-    "guarantees",
     "collapsible-content",
     "product-recommendations",
     "recently-viewed-products",
     "testimonials",
-    "rich-text",
+    "guarantees",
     "gallery",
     "173772806093449aeb"
   ]
