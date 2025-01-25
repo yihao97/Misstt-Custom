@@ -39,7 +39,7 @@
         "image_ratio": "adapt",
         "image_position": "center center",
         "apply_overlay": true,
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     },
@@ -69,7 +69,7 @@
         "enable_color_swatches": true,
         "enable_countdown": true,
         "padding_top": 0,
-        "padding_bottom": 72
+        "padding_bottom": 0
       }
     },
     "recently-viewed": {
@@ -126,6 +126,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "image_ratio": "wide",
         "image_position": "center center",
