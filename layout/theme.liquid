@@ -1,10 +1,35 @@
 {%- assign text_direction = 'localization.text_direction_trigger' | t | downcase -%}
 <!doctype html>
-<html class="no-js" lang="{{ request.locale.iso_code }}"
-  {%- if text_direction == 'rtl' %} dir="rtl"{% endif -%}
+<html
+  class="no-js"
+  lang="{{ request.locale.iso_code }}"
+  {%- if text_direction == 'rtl' %}
+    dir="rtl"
+  {% endif -%}
 >
   <head>
-    <meta name="facebook-domain-verification" content="9y1ur7i8wgqazzqwv9ct80cjwqlulk" />
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1244969070140992');
+      fbq('track', 'PageView');
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display:none"
+        src="https://www.facebook.com/tr?id=1244969070140992&ev=PageView&noscript=1"
+    ></noscript>
+    <!-- End Meta Pixel Code -->
+    <meta name="facebook-domain-verification" content="9y1ur7i8wgqazzqwv9ct80cjwqlulk">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -42,13 +67,19 @@
     {%- liquid
       render 'css-variables'
       echo 'base.css' | asset_url | stylesheet_tag: preload: true
-      
+
       if text_direction == 'rtl'
         echo 'rtl.css' | asset_url | stylesheet_tag
       endif
     -%}
 
-    <link rel="stylesheet" href="{{ 'apps.css' | asset_url }}" media="print" fetchpriority="low" onload="this.media='all'">
+    <link
+      rel="stylesheet"
+      href="{{ 'apps.css' | asset_url }}"
+      media="print"
+      fetchpriority="low"
+      onload="this.media='all'"
+    >
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -56,34 +87,69 @@
     {%- unless settings.type_header_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}
-    
+
     {%- if settings.predictive_search_enabled -%}
-      <link rel="stylesheet" href="{{ 'component-predictive-search.css' | asset_url }}" media="print" onload="this.media='all'">
+      <link
+        rel="stylesheet"
+        href="{{ 'component-predictive-search.css' | asset_url }}"
+        media="print"
+        onload="this.media='all'"
+      >
     {%- endif -%}
     {%- if settings.quick_view_enabled -%}
-      <link rel="stylesheet" href="{{ 'component-quick-view.css' | asset_url }}" media="print" onload="this.media='all'">
+      <link
+        rel="stylesheet"
+        href="{{ 'component-quick-view.css' | asset_url }}"
+        media="print"
+        onload="this.media='all'"
+      >
     {%- endif -%}
     {%- if settings.color_swatches_enabled -%}
-      <link rel="stylesheet" href="{{ 'component-color-swatches.css' | asset_url }}" media="print" onload="this.media='all'">
+      <link
+        rel="stylesheet"
+        href="{{ 'component-color-swatches.css' | asset_url }}"
+        media="print"
+        onload="this.media='all'"
+      >
     {%- endif -%}
-    {%- if linklists.gift-wrapping.links != blank and linklists.gift-wrapping.links.first.type == 'product_link' -%}
-      <link rel="stylesheet" href="{{ 'component-gift-wrapping.css' | asset_url }}" media="print" onload="this.media='all'">
+    {%- if linklists['gift-wrapping'].links != blank
+      and linklists['gift-wrapping'].links.first.type == 'product_link'
+    -%}
+      <link
+        rel="stylesheet"
+        href="{{ 'component-gift-wrapping.css' | asset_url }}"
+        media="print"
+        onload="this.media='all'"
+      >
       <noscript>{{ 'component-gift-wrapping.css' | asset_url | stylesheet_tag }}</noscript>
     {%- endif -%}
 
     {%- render 'js-variables' -%}
   </head>
 
-  <body class="template-{{ request.page_type }}{% if request.design_mode %} shopify-design-mode{% endif %}"
-    {%- if settings.image_zoom_effect_enabled %} data-animate-image{% endif -%}
-    {%- if settings.image_loading_bar_enabled %} data-lazy-image{% endif -%}
-    {%- if settings.heading_capitalize %} data-heading-capitalize{% endif -%}
-    {%- if settings.heading_center %} data-heading-center{% endif -%}
-    {%- if settings.price_superscript %} data-price-superscript{% endif -%}
-    {%- if settings.button_corner_radius > 0 %} data-button-round{% endif -%}
+  <body
+    class="template-{{ request.page_type }}{% if request.design_mode %} shopify-design-mode{% endif %}"
+    {%- if settings.image_zoom_effect_enabled %}
+      data-animate-image
+    {% endif -%}
+    {%- if settings.image_loading_bar_enabled %}
+      data-lazy-image
+    {% endif -%}
+    {%- if settings.heading_capitalize %}
+      data-heading-capitalize
+    {% endif -%}
+    {%- if settings.heading_center %}
+      data-heading-center
+    {% endif -%}
+    {%- if settings.price_superscript %}
+      data-price-superscript
+    {% endif -%}
+    {%- if settings.button_corner_radius > 0 %}
+      data-button-round
+    {% endif -%}
   >
     <a class="skip-to-content-link button button--small visually-hidden" href="#MainContent">
-      {{ "accessibility.skip_to_text" | t }}
+      {{ 'accessibility.skip_to_text' | t }}
     </a>
 
     {% render 'transition-cover' %}
@@ -125,10 +191,10 @@
     {%- if settings.color_swatches_enabled -%}
       <script src="{{ 'color-swatches.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    {%- if linklists.gift-wrapping.links != blank and linklists.gift-wrapping.links.first.type == 'product_link' -%}
+    {%- if linklists['gift-wrapping'].links != blank
+      and linklists['gift-wrapping'].links.first.type == 'product_link'
+    -%}
       <script src="{{ 'gift-wrapping.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-          
-
   </body>
 </html>
