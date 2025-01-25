@@ -217,11 +217,11 @@
       "settings": {
         "enable_sticky_info": false,
         "media_position": "left",
-        "media_size": "small",
+        "media_size": "medium",
         "gallery_layout": "thumbnail_slider",
         "image_ratio": "adapt",
         "show_featured_media": true,
-        "show_thumbnails": true,
+        "show_thumbnails": false,
         "hide_variants": false,
         "enable_image_zoom": false,
         "enable_video_looping": false,
