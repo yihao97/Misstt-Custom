@@ -119,6 +119,19 @@
             "show_gift_card_recipient": false
           }
         },
+        "okendo_media_carousel_j4RqdU": {
+          "type": "shopify://apps/okendo/blocks/media-carousel/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "okendo_reviews_widget_RWnhAW": {
+          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        },
         "judge_me_reviews_review_widget_VrdN8Q": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
@@ -140,7 +153,6 @@
         },
         "loox_reviews_loox_dynamic_section_jHeemP": {
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "disabled": true,
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -204,6 +216,8 @@
         "variant_picker",
         "countdown",
         "buy_buttons",
+        "okendo_media_carousel_j4RqdU",
+        "okendo_reviews_widget_RWnhAW",
         "judge_me_reviews_review_widget_VrdN8Q",
         "trustoo_io_reviews_review_widget_BAzWCW",
         "trustoo_io_reviews_card_carousel_NU8nDG",
