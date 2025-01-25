@@ -117,14 +117,12 @@
         },
         "trustoo_io_reviews_review_widget_BAzWCW": {
           "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "disabled": true,
           "settings": {}
         },
         "trustoo_io_reviews_card_carousel_NU8nDG": {
           "type": "shopify://apps/trustoo-io-reviews/blocks/card-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
-          "settings": {}
-        },
-        "trustoo_io_reviews_buyers_shows_GN3Jhf": {
-          "type": "shopify://apps/trustoo-io-reviews/blocks/buyers-shows/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "disabled": true,
           "settings": {}
         },
         "loox_reviews_loox_dynamic_section_jHeemP": {
@@ -193,7 +191,6 @@
         "buy_buttons",
         "trustoo_io_reviews_review_widget_BAzWCW",
         "trustoo_io_reviews_card_carousel_NU8nDG",
-        "trustoo_io_reviews_buyers_shows_GN3Jhf",
         "loox_reviews_loox_dynamic_section_jHeemP",
         "collapsible_tab-0",
         "collapsible_tab-1",
