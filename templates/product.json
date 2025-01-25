@@ -16,62 +16,6 @@
         "mobile_height": 16
       }
     },
-    "scrolling-promotion": {
-      "type": "scrolling-promotion",
-      "blocks": {
-        "announcement-0": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "FREE SHIPPING on all orders over $100",
-            "text_size": 16,
-            "link": ""
-          }
-        },
-        "announcement-1": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "EASY RETURNS 30-day postage paid returns",
-            "text_size": 16,
-            "link": ""
-          }
-        },
-        "announcement-3": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "10% OFF your first order | Use code: FIRST10",
-            "text_size": 16,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement-0",
-        "announcement-1",
-        "announcement-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "direction": "left",
-        "speed": 1.6,
-        "show_divider": false,
-        "use_custom_colors": true,
-        "colors_icon": "#f1ff34",
-        "colors_text": "#212326",
-        "colors_background": "#f2f2f2",
-        "gradient_background": "",
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -112,18 +56,6 @@
             "looxOpenFloatingWidget": false,
             "emptyRatingWidget": false
           }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {}
         },
         "price": {
           "type": "price",
@@ -183,30 +115,6 @@
             "is_sample": true
           }
         },
-        "collapsible_tab-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "heading": "1. Collapsible tab",
-            "content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-            "page": "",
-            "custom_liquid": "",
-            "keep_open": false
-          }
-        },
-        "collapsible_tab-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "heading": "2. Collapsible tab",
-            "content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-            "page": "",
-            "custom_liquid": "",
-            "keep_open": false
-          }
-        },
         "related_buttons": {
           "type": "related_buttons",
           "settings": {
@@ -229,16 +137,12 @@
         "vendor",
         "title",
         "loox_reviews_loox_rating_GQDQwk",
-        "share",
-        "rating",
         "price",
         "inventory_status",
         "variant_picker",
         "countdown",
         "buy_buttons",
         "loox_reviews_loox_dynamic_section_jHeemP",
-        "collapsible_tab-0",
-        "collapsible_tab-1",
         "related_buttons",
         "sticky_cart",
         "description"
@@ -412,7 +316,6 @@
   },
   "order": [
     "empty-space",
-    "scrolling-promotion",
     "main",
     "product-recommendations",
     "recently-viewed-products",
