@@ -119,8 +119,21 @@
             "show_gift_card_recipient": false
           }
         },
+        "trustoo_io_reviews_review_widget_BAzWCW": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/review-widget/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        },
+        "trustoo_io_reviews_card_carousel_NU8nDG": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/card-carousel/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        },
+        "trustoo_io_reviews_buyers_shows_GN3Jhf": {
+          "type": "shopify://apps/trustoo-io-reviews/blocks/buyers-shows/c8f15077-6475-4e86-ad06-b66038d5ba2c",
+          "settings": {}
+        },
         "loox_reviews_loox_dynamic_section_jHeemP": {
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
           "settings": {
             "only_photos": false,
             "aggregated": false,
@@ -132,10 +145,12 @@
         },
         "judge_me_reviews_review_widget_VrdN8Q": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {}
         },
         "tydal_reviews_reviews_widget_Lw3JDH": {
           "type": "shopify://apps/tydal-reviews/blocks/reviews-widget/5f785e18-66cc-4519-8181-565d1cce1705",
+          "disabled": true,
           "settings": {}
         },
         "collapsible_tab-0": {
@@ -192,6 +207,9 @@
         "variant_picker",
         "countdown",
         "buy_buttons",
+        "trustoo_io_reviews_review_widget_BAzWCW",
+        "trustoo_io_reviews_card_carousel_NU8nDG",
+        "trustoo_io_reviews_buyers_shows_GN3Jhf",
         "loox_reviews_loox_dynamic_section_jHeemP",
         "judge_me_reviews_review_widget_VrdN8Q",
         "tydal_reviews_reviews_widget_Lw3JDH",
